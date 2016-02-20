@@ -45,7 +45,7 @@ class ResourceHolding(Base, ModelMixin):
     status = relationship("Status", foreign_keys="Status.item_identifier")
 
 class Status(Base, ModelMixin):
-    __tablename__ = 'search_status'
+    __tablename__ = 'resource_status'
 
     available = Column(Boolean)
     due_date = Column(Integer)
