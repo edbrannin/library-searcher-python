@@ -47,7 +47,6 @@ class ResourceHolding(Base, ModelMixin):
 class Status(Base, ModelMixin):
     __tablename__ = 'search_status'
 
-
     available = Column(Boolean)
     due_date = Column(Integer)
     due_date_string = Column(String)

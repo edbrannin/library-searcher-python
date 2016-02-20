@@ -77,15 +77,37 @@ def save_search_result(query, position, item):
         session.add(rh)
     session.commit()
 
+def update_availability():
+    payload = availability_payload(session.query(Resource))
+    r = post(AVAILABILITY_URL, payload)
+    save_availability(*r["itemAvailabilities"])
+
+
+def save_availability(*results):
+    for result in results:
+        status = Status(
+                available=result['available'],
+                due_date=result['dueDate'],
+                due_date_string=result['dueDateString'],
+                non_circulating=result['nonCirculating'],
+                on_order=result['onOrder'],
+                resource_id=result['resourceId'],
+                item_identifier=result['itemIdentifier'],
+                status=result['status'],
+                status_code=result['statusCode'],
+                )
+        session.add(status)
+    session.commit()
 
 def availability_payload(search_results):
     answer = []
     for result in search_results:
         for holding in result.holdings:
             answer.append(dict(
-                itemIdentifier=holding.bar_code,
+                itemIdentifier=holding.barcode,
                 resourceId=holding.item_id,
                 ))
+    return answer
 
 def search_payload(text, branch_ids=()):
     return {
@@ -100,10 +122,7 @@ def search_payload(text, branch_ids=()):
             "dbCodes"        : []
             }
 # {"searchTerm":"Asch\tBear Shadow","startIndex":0,"hitsPerPage":12,"facetFilters":[],"branchFilters":["1"],"sortCriteria":"Relevancy","targetAudience":"","addToHistory":true,"dbCodes":[]}
-
     pass
-
-
 
 def main():
     global session
@@ -114,10 +133,8 @@ def main():
             continue
         print line
         search(line)
-        break
+        # break
 
-    pprint.pprint(availability_payload(session.query(Resource).all()))
-    return
     update_availability()
     return
 
