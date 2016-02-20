@@ -16,14 +16,14 @@ def test_save_item():
     response = read('search-response')
     search.save_search_result("scraping", 1, response['resources'][0])
 
-    assert session.query(SearchResult).count() == 1
-    result = session.query(SearchResult).one()
+    assert session.query(Resource).count() == 1
+    result = session.query(Resource).one()
 
     assert result.search_query == "scraping"
     assert result.id == 10964391
     assert result.position == 1
     assert result.format == "Book"
-    assert result.holdings == None
+    assert len(result.holdings) == 2
     assert result.author ==  "Ross, Cindy"
     assert result.title == "Scraping heaven : a family's journey along the Continental Divide"
 

@@ -57,7 +57,7 @@ def search(text):
         save_search_result(text, i, item)
 
 def save_search_result(query, position, item):
-    result = SearchResult(
+    result = Resource(
             search_query=query,
             id=item['id'],
             position=position,
@@ -77,18 +77,15 @@ def save_search_result(query, position, item):
         session.add(rh)
     session.commit()
 
-class Resource(object):
-    def __init__(self, resource):
-        self.format = resource['format']
-        self.holdings = resource['holdingsInformations']
-        self.author = resource['shortAuthor']
-        self.title = resource['shortTitle']
 
-
-def availability_payload(*items):
-    pass
-    # itemIdentifier=resources[x].barCode,
-    # resourceId=resources[x].holdingsInformations[y].id
+def availability_payload(search_results):
+    answer = []
+    for result in search_results:
+        for holding in result.holdings:
+            answer.append(dict(
+                itemIdentifier=holding.bar_code,
+                resourceId=holding.item_id,
+                ))
 
 def search_payload(text, branch_ids=()):
     return {
@@ -119,10 +116,15 @@ def main():
         search(line)
         break
 
+    pprint.pprint(availability_payload(session.query(Resource).all()))
+    return
+    update_availability()
+    return
+
     with open('results.csv', 'wb') as writer:
         w = csv.writer(writer)
 
-        for result in session.query(SearchResult):
+        for result in session.query(Resource):
             for resource in result['resources']:
                 r = Resource(resource)
                 # pprint.pprint(vars(r))
