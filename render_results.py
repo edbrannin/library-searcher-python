@@ -25,7 +25,7 @@ where
   and s.item_identifier = h.barcode
   and position = 0
   and branch_name in (
-    'Rochester Public Library Central',
+    -- 'Rochester Public Library Central',
     'Irondequoit Public Library'
     )
   and available = 1

@@ -8,6 +8,11 @@ tr.even {
 body {
     font-family: monospace;
 }
+td, th {
+    border-left: 1px solid black;
+    margin-right: .5em;
+    padding-left: .5em;
+}
         </style>
     </head>
     <body>
@@ -23,17 +28,21 @@ body {
                 </tr>
             </thead>
             <tbody>
-                {% set last_title = None %}
                 {% set row_class = cycler('odd', 'even') %}
                 {% for row in rows %}
-                <tr class="{{ row_class.current if row.title == last_title else row_class.next() }}">
+                <tr class="{{ row_class.next() if row.title != last_title else row_class.current }}">
                     <td>[&nbsp;]</td>
                     <td>{{ row.author|e }}</td>
                     <td>{{ row.title|e }}</td>
                     <td>{{ row.branch_name|e }}</td>
                     <td>{{ row.collection_name|e }}</td>
                     <td>{{ row.call_class|e }}</td>
-                    {% set last_title = row['title'] %}
+                    {#
+                    <td>{{last_title}}</td>
+                    <td>{{row.title == last_title }}</td>
+                    <td>{{row_class.current}}</td>
+                    #}
+                    {% set last_title = row.title %}
                 </tr>
                 {% endfor %}
             </tbody>
