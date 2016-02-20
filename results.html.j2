@@ -2,8 +2,8 @@
 <html>
     <head>
         <style type="text/css">
-tr.even {
-    background-color: wheat;
+tr.new_book td {
+    border-top: 1px solid gray;
 }
 body {
     font-family: monospace;
@@ -23,18 +23,19 @@ td, th {
                     <th>Author</th>
                     <th>Title</th>
                     <th>Branch</th>
+                    <th>Count</th>
                     <th>Collection</th>
                     <th>Call #</th>
                 </tr>
             </thead>
             <tbody>
-                {% set row_class = cycler('odd', 'even') %}
                 {% for row in rows %}
-                <tr class="{{ row_class.next() if row.title != last_title else row_class.current }}">
+                <tr class="{{ 'new_book' if row.title != last_title else same_book }}">
                     <td>[&nbsp;]</td>
                     <td>{{ row.author|e }}</td>
                     <td>{{ row.title|e }}</td>
                     <td>{{ row.branch_name|e }}</td>
+                    <td>{{ row.count|e }}</td>
                     <td>{{ row.collection_name|e }}</td>
                     <td>{{ row.call_class|e }}</td>
                     {#
