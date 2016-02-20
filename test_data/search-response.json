@@ -1,0 +1,1792 @@
+{
+  "facetFilters": [
+  ],
+  "resources": [
+    {
+      "callNumbers": [
+        {
+          "from099TagSubfieldA": true,
+          "subfield": "a",
+          "tag": 99,
+          "value": "917.8"
+        },
+        {
+          "from099TagSubfieldA": true,
+          "subfield": "a",
+          "tag": 99,
+          "value": "917.8"
+        }
+      ],
+      "content": null,
+      "downloadable": false,
+      "extent": "ix, 325 p., [8] p. of plates :",
+      "facetFilters": null,
+      "format": "Book",
+      "holdingsInformations": [
+        {
+          "barcode": "39077051679580",
+          "branchIdentifier": "209",
+          "branchName": "Irondequoit Public Library",
+          "callClass": "917.8 ROS",
+          "callCutter": null,
+          "callPrefix": null,
+          "caption": null,
+          "chronology": null,
+          "collectionCode": ".",
+          "collectionKey": "00209.",
+          "collectionName": ".",
+          "copy": null,
+          "enumeration": null,
+          "formattedChronEnum": null,
+          "formattedChronEnumImperial": null,
+          "hideFromPublic": false,
+          "id": 684154914,
+          "isid": null,
+          "parts": null,
+          "sortCopy": "ZZZZZZZZZZZZZZZZZZZZ",
+          "sortVolume": "ZZZZZZZZZZZZZZZZZZZZ",
+          "volume": null,
+          "year": null
+        },
+        {
+          "barcode": "39077051679747",
+          "branchIdentifier": "209",
+          "branchName": "Irondequoit Public Library",
+          "callClass": "917.8 ROS",
+          "callCutter": null,
+          "callPrefix": null,
+          "caption": null,
+          "chronology": null,
+          "collectionCode": ".",
+          "collectionKey": "00209.",
+          "collectionName": ".",
+          "copy": null,
+          "enumeration": null,
+          "formattedChronEnum": null,
+          "formattedChronEnumImperial": null,
+          "hideFromPublic": false,
+          "id": 684154915,
+          "isid": null,
+          "parts": null,
+          "sortCopy": "ZZZZZZZZZZZZZZZZZZZZ",
+          "sortVolume": "ZZZZZZZZZZZZZZZZZZZZ",
+          "volume": null,
+          "year": null
+        }
+      ],
+      "hostBibliographicId": "978095",
+      "id": 10964391,
+      "imageDisplays": [
+        {
+          "imageName": "Book.png",
+          "imageType": "Book",
+          "priority": 600
+        }
+      ],
+      "link": null,
+      "localLargeImage": null,
+      "localSmallImage": null,
+      "mainSeries": null,
+      "missingContent": null,
+      "publicationDate": {
+        "publicationDate": "2002"
+      },
+      "publicationInformations": [
+        {
+          "id": 684154928,
+          "publicationDate": "c2003.",
+          "publicationPlace": "Camden, Me. :",
+          "publisherName": "Ragged Mountain Press/McGraw-Hill,"
+        }
+      ],
+      "publicationPlace": null,
+      "ratingInformation": {
+        "average": 0,
+        "count": 0
+      },
+      "reviews": null,
+      "rssFeedName": null,
+      "rtype": 1,
+      "shortAuthor": "Ross, Cindy",
+      "shortTitle": "Scraping heaven : a family's journey along the Continental Divide",
+      "standardNumbers": [
+        {
+          "data": "9780071373609",
+          "id": 684154929,
+          "type": "Isbn"
+        },
+        {
+          "data": "0071373608",
+          "id": 684154930,
+          "type": "Isbn"
+        }
+      ],
+      "tags": [
+        {
+          "blocked": false,
+          "count": 0,
+          "data": "cindy ross",
+          "id": 583179667,
+          "userEntered": false
+        }
+      ]
+    },
+    {
+      "callNumbers": [
+        {
+          "from099TagSubfieldA": true,
+          "subfield": "a",
+          "tag": 99,
+          "value": "FICTION"
+        },
+        {
+          "from099TagSubfieldA": true,
+          "subfield": "a",
+          "tag": 99,
+          "value": "FICTION"
+        }
+      ],
+      "content": null,
+      "downloadable": false,
+      "extent": "1 v. (unpaged) :",
+      "facetFilters": null,
+      "format": "Book",
+      "holdingsInformations": [
+        {
+          "barcode": "39077070802692",
+          "branchIdentifier": "22",
+          "branchName": "Pittsford Community Library",
+          "callClass": "PICTURE BOOK COY",
+          "callCutter": null,
+          "callPrefix": null,
+          "caption": null,
+          "chronology": null,
+          "collectionCode": "PIC/BK",
+          "collectionKey": "00022PIC/BK",
+          "collectionName": "PIC/BK - PICTURE BOOK",
+          "copy": null,
+          "enumeration": null,
+          "formattedChronEnum": null,
+          "formattedChronEnumImperial": null,
+          "hideFromPublic": false,
+          "id": 624898963,
+          "isid": null,
+          "parts": null,
+          "sortCopy": "ZZZZZZZZZZZZZZZZZZZZ",
+          "sortVolume": "ZZZZZZZZZZZZZZZZZZZZ",
+          "volume": null,
+          "year": null
+        },
+        {
+          "barcode": "39077070857068",
+          "branchIdentifier": "22",
+          "branchName": "Pittsford Community Library",
+          "callClass": "PICTURE BOOK COY",
+          "callCutter": null,
+          "callPrefix": null,
+          "caption": null,
+          "chronology": null,
+          "collectionCode": "PIC/BK",
+          "collectionKey": "00022PIC/BK",
+          "collectionName": "PIC/BK - PICTURE BOOK",
+          "copy": null,
+          "enumeration": null,
+          "formattedChronEnum": null,
+          "formattedChronEnumImperial": null,
+          "hideFromPublic": false,
+          "id": 624898966,
+          "isid": null,
+          "parts": null,
+          "sortCopy": "ZZZZZZZZZZZZZZZZZZZZ",
+          "sortVolume": "ZZZZZZZZZZZZZZZZZZZZ",
+          "volume": null,
+          "year": null
+        },
+        {
+          "barcode": "39077070857076",
+          "branchIdentifier": "22",
+          "branchName": "Pittsford Community Library",
+          "callClass": "PICTURE BOOK COY",
+          "callCutter": null,
+          "callPrefix": null,
+          "caption": null,
+          "chronology": null,
+          "collectionCode": "PIC/BK",
+          "collectionKey": "00022PIC/BK",
+          "collectionName": "PIC/BK - PICTURE BOOK",
+          "copy": null,
+          "enumeration": null,
+          "formattedChronEnum": null,
+          "formattedChronEnumImperial": null,
+          "hideFromPublic": false,
+          "id": 624898967,
+          "isid": null,
+          "parts": null,
+          "sortCopy": "ZZZZZZZZZZZZZZZZZZZZ",
+          "sortVolume": "ZZZZZZZZZZZZZZZZZZZZ",
+          "volume": null,
+          "year": null
+        },
+        {
+          "barcode": "39077076987570",
+          "branchIdentifier": "22",
+          "branchName": "Pittsford Community Library",
+          "callClass": "PICTURE BOOK COY",
+          "callCutter": null,
+          "callPrefix": null,
+          "caption": null,
+          "chronology": null,
+          "collectionCode": "PIC/BK",
+          "collectionKey": "00022PIC/BK",
+          "collectionName": "PIC/BK - PICTURE BOOK",
+          "copy": null,
+          "enumeration": null,
+          "formattedChronEnum": null,
+          "formattedChronEnumImperial": null,
+          "hideFromPublic": false,
+          "id": 624898964,
+          "isid": null,
+          "parts": null,
+          "sortCopy": "ZZZZZZZZZZZZZZZZZZZZ",
+          "sortVolume": "ZZZZZZZZZZZZZZZZZZZZ",
+          "volume": null,
+          "year": null
+        },
+        {
+          "barcode": "39077076987703",
+          "branchIdentifier": "22",
+          "branchName": "Pittsford Community Library",
+          "callClass": "PICTURE BOOK COY",
+          "callCutter": null,
+          "callPrefix": null,
+          "caption": null,
+          "chronology": null,
+          "collectionCode": "PIC/BK",
+          "collectionKey": "00022PIC/BK",
+          "collectionName": "PIC/BK - PICTURE BOOK",
+          "copy": null,
+          "enumeration": null,
+          "formattedChronEnum": null,
+          "formattedChronEnumImperial": null,
+          "hideFromPublic": false,
+          "id": 624898965,
+          "isid": null,
+          "parts": null,
+          "sortCopy": "ZZZZZZZZZZZZZZZZZZZZ",
+          "sortVolume": "ZZZZZZZZZZZZZZZZZZZZ",
+          "volume": null,
+          "year": null
+        },
+        {
+          "barcode": "39077076063570",
+          "branchIdentifier": "28",
+          "branchName": "Webster Public Library",
+          "callClass": "PICTURE BOOK C",
+          "callCutter": null,
+          "callPrefix": null,
+          "caption": null,
+          "chronology": null,
+          "collectionCode": "CHILD",
+          "collectionKey": "00028CHILD",
+          "collectionName": "CHILD - CHILDREN",
+          "copy": null,
+          "enumeration": null,
+          "formattedChronEnum": null,
+          "formattedChronEnumImperial": null,
+          "hideFromPublic": false,
+          "id": 624898968,
+          "isid": null,
+          "parts": null,
+          "sortCopy": "ZZZZZZZZZZZZZZZZZZZZ",
+          "sortVolume": "ZZZZZZZZZZZZZZZZZZZZ",
+          "volume": null,
+          "year": null
+        },
+        {
+          "barcode": "39077069025644",
+          "branchIdentifier": "5",
+          "branchName": "Brighton Memorial Library",
+          "callClass": "PICTURE BOOK - C",
+          "callCutter": null,
+          "callPrefix": null,
+          "caption": null,
+          "chronology": null,
+          "collectionCode": "CHILD",
+          "collectionKey": "00005CHILD",
+          "collectionName": "CHILD - CHILDREN",
+          "copy": null,
+          "enumeration": null,
+          "formattedChronEnum": null,
+          "formattedChronEnumImperial": null,
+          "hideFromPublic": false,
+          "id": 624898961,
+          "isid": null,
+          "parts": null,
+          "sortCopy": "ZZZZZZZZZZZZZZZZZZZZ",
+          "sortVolume": "ZZZZZZZZZZZZZZZZZZZZ",
+          "volume": null,
+          "year": null
+        },
+        {
+          "barcode": "39077069025669",
+          "branchIdentifier": "5",
+          "branchName": "Brighton Memorial Library",
+          "callClass": "PICTURE BOOK - C",
+          "callCutter": null,
+          "callPrefix": null,
+          "caption": null,
+          "chronology": null,
+          "collectionCode": "CHILD",
+          "collectionKey": "00005CHILD",
+          "collectionName": "CHILD - CHILDREN",
+          "copy": null,
+          "enumeration": null,
+          "formattedChronEnum": null,
+          "formattedChronEnumImperial": null,
+          "hideFromPublic": false,
+          "id": 624898960,
+          "isid": null,
+          "parts": null,
+          "sortCopy": "ZZZZZZZZZZZZZZZZZZZZ",
+          "sortVolume": "ZZZZZZZZZZZZZZZZZZZZ",
+          "volume": null,
+          "year": null
+        },
+        {
+          "barcode": "39077060662825",
+          "branchIdentifier": "9",
+          "branchName": "Fairport Public Library",
+          "callClass": "PICTURE BOOK-COY",
+          "callCutter": null,
+          "callPrefix": null,
+          "caption": null,
+          "chronology": null,
+          "collectionCode": "CHILD",
+          "collectionKey": "00009CHILD",
+          "collectionName": "CHILD - CHILDREN",
+          "copy": null,
+          "enumeration": null,
+          "formattedChronEnum": null,
+          "formattedChronEnumImperial": null,
+          "hideFromPublic": false,
+          "id": 624898962,
+          "isid": null,
+          "parts": null,
+          "sortCopy": "ZZZZZZZZZZZZZZZZZZZZ",
+          "sortVolume": "ZZZZZZZZZZZZZZZZZZZZ",
+          "volume": null,
+          "year": null
+        }
+      ],
+      "hostBibliographicId": "1133549",
+      "id": 16747247,
+      "imageDisplays": [
+        {
+          "imageName": "Book.png",
+          "imageType": "Book",
+          "priority": 600
+        }
+      ],
+      "link": null,
+      "localLargeImage": null,
+      "localSmallImage": null,
+      "mainSeries": null,
+      "missingContent": null,
+      "publicationDate": {
+        "publicationDate": "2006"
+      },
+      "publicationInformations": [
+        {
+          "id": 624898983,
+          "publicationDate": "c2006.",
+          "publicationPlace": "Flagstaff, Ariz. :",
+          "publisherName": "Rising Moon,"
+        }
+      ],
+      "publicationPlace": null,
+      "ratingInformation": {
+        "average": 0,
+        "count": 0
+      },
+      "reviews": null,
+      "rssFeedName": null,
+      "rtype": 1,
+      "shortAuthor": "Coyle, Carmela LaVigna",
+      "shortTitle": "Do princesses scrape their knees?",
+      "standardNumbers": [
+        {
+          "data": "0873588967",
+          "id": 624898984,
+          "type": "Isbn"
+        },
+        {
+          "data": "9780873589093",
+          "id": 624898985,
+          "type": "Isbn"
+        },
+        {
+          "data": "9780873588966",
+          "id": 624898986,
+          "type": "Isbn"
+        },
+        {
+          "data": "0873589092",
+          "id": 624898987,
+          "type": "Isbn"
+        }
+      ],
+      "tags": [
+      ]
+    },
+    {
+      "callNumbers": [
+        {
+          "from099TagSubfieldA": true,
+          "subfield": "a",
+          "tag": 99,
+          "value": "617.1 B496o"
+        },
+        {
+          "from099TagSubfieldA": true,
+          "subfield": "a",
+          "tag": 99,
+          "value": "617.1 B496o"
+        }
+      ],
+      "content": null,
+      "downloadable": false,
+      "extent": "[32] p. :",
+      "facetFilters": null,
+      "format": "Book",
+      "holdingsInformations": [
+        {
+          "barcode": "39077030471398",
+          "branchIdentifier": "1",
+          "branchName": "Rochester Public Library Central",
+          "callClass": "j617.1 B496o",
+          "callCutter": null,
+          "callPrefix": null,
+          "caption": "",
+          "chronology": "",
+          "collectionCode": "CHILD",
+          "collectionKey": "00001CHILD",
+          "collectionName": "CHILD - CHILDREN",
+          "copy": null,
+          "enumeration": "",
+          "formattedChronEnum": " ",
+          "formattedChronEnumImperial": " ",
+          "hideFromPublic": false,
+          "id": 758867252,
+          "isid": "0",
+          "parts": null,
+          "sortCopy": "ZZZZZZZZZZZZZZZZZZZZ",
+          "sortVolume": "ZZZZZZZZZZZZZZZZZZZZ",
+          "volume": null,
+          "year": null
+        },
+        {
+          "barcode": "39077028692302",
+          "branchIdentifier": "20",
+          "branchName": "Parma Public Library",
+          "callClass": "j617.1",
+          "callCutter": null,
+          "callPrefix": null,
+          "caption": "",
+          "chronology": "",
+          "collectionCode": ".",
+          "collectionKey": "00020.",
+          "collectionName": ".",
+          "copy": null,
+          "enumeration": "",
+          "formattedChronEnum": " ",
+          "formattedChronEnumImperial": " ",
+          "hideFromPublic": false,
+          "id": 758867256,
+          "isid": "0",
+          "parts": null,
+          "sortCopy": "ZZZZZZZZZZZZZZZZZZZZ",
+          "sortVolume": "ZZZZZZZZZZZZZZZZZZZZ",
+          "volume": null,
+          "year": null
+        },
+        {
+          "barcode": "39077028329533",
+          "branchIdentifier": "209",
+          "branchName": "Irondequoit Public Library",
+          "callClass": "j617.1 BER",
+          "callCutter": null,
+          "callPrefix": null,
+          "caption": "",
+          "chronology": "",
+          "collectionCode": "CHILD",
+          "collectionKey": "00209CHILD",
+          "collectionName": "CHILD - CHILDREN",
+          "copy": null,
+          "enumeration": "",
+          "formattedChronEnum": " ",
+          "formattedChronEnumImperial": " ",
+          "hideFromPublic": false,
+          "id": 758867263,
+          "isid": "0",
+          "parts": null,
+          "sortCopy": "ZZZZZZZZZZZZZZZZZZZZ",
+          "sortVolume": "ZZZZZZZZZZZZZZZZZZZZ",
+          "volume": null,
+          "year": null
+        },
+        {
+          "barcode": "39077028070376",
+          "branchIdentifier": "22",
+          "branchName": "Pittsford Community Library",
+          "callClass": "j617.1",
+          "callCutter": null,
+          "callPrefix": null,
+          "caption": "",
+          "chronology": "",
+          "collectionCode": "CHILD",
+          "collectionKey": "00022CHILD",
+          "collectionName": "CHILD - CHILDREN",
+          "copy": null,
+          "enumeration": "",
+          "formattedChronEnum": " ",
+          "formattedChronEnumImperial": " ",
+          "hideFromPublic": false,
+          "id": 758867257,
+          "isid": "0",
+          "parts": null,
+          "sortCopy": "ZZZZZZZZZZZZZZZZZZZZ",
+          "sortVolume": "ZZZZZZZZZZZZZZZZZZZZ",
+          "volume": null,
+          "year": null
+        },
+        {
+          "barcode": "39077027246480",
+          "branchIdentifier": "25",
+          "branchName": "Rush Public Library",
+          "callClass": "j617.1 BER",
+          "callCutter": null,
+          "callPrefix": null,
+          "caption": "",
+          "chronology": "",
+          "collectionCode": "CHILD",
+          "collectionKey": "00025CHILD",
+          "collectionName": "CHILD - CHILDREN",
+          "copy": null,
+          "enumeration": "",
+          "formattedChronEnum": " ",
+          "formattedChronEnumImperial": " ",
+          "hideFromPublic": false,
+          "id": 758867258,
+          "isid": "0",
+          "parts": null,
+          "sortCopy": "ZZZZZZZZZZZZZZZZZZZZ",
+          "sortVolume": "ZZZZZZZZZZZZZZZZZZZZ",
+          "volume": null,
+          "year": null
+        },
+        {
+          "barcode": "39077027430951",
+          "branchIdentifier": "28",
+          "branchName": "Webster Public Library",
+          "callClass": "j617.1 BER",
+          "callCutter": null,
+          "callPrefix": null,
+          "caption": "",
+          "chronology": "",
+          "collectionCode": "CHILD",
+          "collectionKey": "00028CHILD",
+          "collectionName": "CHILD - CHILDREN",
+          "copy": null,
+          "enumeration": "",
+          "formattedChronEnum": " ",
+          "formattedChronEnumImperial": " ",
+          "hideFromPublic": false,
+          "id": 758867259,
+          "isid": "0",
+          "parts": null,
+          "sortCopy": "ZZZZZZZZZZZZZZZZZZZZ",
+          "sortVolume": "ZZZZZZZZZZZZZZZZZZZZ",
+          "volume": null,
+          "year": null
+        },
+        {
+          "barcode": "39077027430969",
+          "branchIdentifier": "28",
+          "branchName": "Webster Public Library",
+          "callClass": "j617.1 BER",
+          "callCutter": null,
+          "callPrefix": null,
+          "caption": "",
+          "chronology": "",
+          "collectionCode": "CHILD",
+          "collectionKey": "00028CHILD",
+          "collectionName": "CHILD - CHILDREN",
+          "copy": null,
+          "enumeration": "",
+          "formattedChronEnum": " ",
+          "formattedChronEnumImperial": " ",
+          "hideFromPublic": false,
+          "id": 758867260,
+          "isid": "0",
+          "parts": null,
+          "sortCopy": "ZZZZZZZZZZZZZZZZZZZZ",
+          "sortVolume": "ZZZZZZZZZZZZZZZZZZZZ",
+          "volume": null,
+          "year": null
+        },
+        {
+          "barcode": "39077028151325",
+          "branchIdentifier": "30",
+          "branchName": "Charlotte Branch Library",
+          "callClass": "J GROWING UP 617.1 BER",
+          "callCutter": null,
+          "callPrefix": null,
+          "caption": "",
+          "chronology": "",
+          "collectionCode": "CHILD",
+          "collectionKey": "00030CHILD",
+          "collectionName": "CHILD - CHILDREN",
+          "copy": null,
+          "enumeration": "",
+          "formattedChronEnum": " ",
+          "formattedChronEnumImperial": " ",
+          "hideFromPublic": false,
+          "id": 758867261,
+          "isid": "0",
+          "parts": null,
+          "sortCopy": "ZZZZZZZZZZZZZZZZZZZZ",
+          "sortVolume": "ZZZZZZZZZZZZZZZZZZZZ",
+          "volume": null,
+          "year": null
+        },
+        {
+          "barcode": "39077028233958",
+          "branchIdentifier": "32",
+          "branchName": "Lincoln Branch Library",
+          "callClass": "PRIMARY J617.1 Ber",
+          "callCutter": null,
+          "callPrefix": null,
+          "caption": "",
+          "chronology": "",
+          "collectionCode": ".",
+          "collectionKey": "00032.",
+          "collectionName": ".",
+          "copy": null,
+          "enumeration": "",
+          "formattedChronEnum": " ",
+          "formattedChronEnumImperial": " ",
+          "hideFromPublic": false,
+          "id": 758867262,
+          "isid": "0",
+          "parts": null,
+          "sortCopy": "ZZZZZZZZZZZZZZZZZZZZ",
+          "sortVolume": "ZZZZZZZZZZZZZZZZZZZZ",
+          "volume": null,
+          "year": null
+        },
+        {
+          "barcode": "39077028040064",
+          "branchIdentifier": "5",
+          "branchName": "Brighton Memorial Library",
+          "callClass": "j617.1 BER",
+          "callCutter": null,
+          "callPrefix": null,
+          "caption": "",
+          "chronology": "",
+          "collectionCode": "CHILD",
+          "collectionKey": "00005CHILD",
+          "collectionName": "CHILD - CHILDREN",
+          "copy": null,
+          "enumeration": "",
+          "formattedChronEnum": " ",
+          "formattedChronEnumImperial": " ",
+          "hideFromPublic": false,
+          "id": 758867253,
+          "isid": "0",
+          "parts": null,
+          "sortCopy": "ZZZZZZZZZZZZZZZZZZZZ",
+          "sortVolume": "ZZZZZZZZZZZZZZZZZZZZ",
+          "volume": null,
+          "year": null
+        },
+        {
+          "barcode": "39077028058280",
+          "branchIdentifier": "7",
+          "branchName": "Chili Public Library",
+          "callClass": "j617.1 BER",
+          "callCutter": null,
+          "callPrefix": null,
+          "caption": "",
+          "chronology": "",
+          "collectionCode": "CHILD",
+          "collectionKey": "00007CHILD",
+          "collectionName": "CHILD - CHILDREN",
+          "copy": null,
+          "enumeration": "",
+          "formattedChronEnum": " ",
+          "formattedChronEnumImperial": " ",
+          "hideFromPublic": false,
+          "id": 758867254,
+          "isid": "0",
+          "parts": null,
+          "sortCopy": "ZZZZZZZZZZZZZZZZZZZZ",
+          "sortVolume": "ZZZZZZZZZZZZZZZZZZZZ",
+          "volume": null,
+          "year": null
+        },
+        {
+          "barcode": "39077027166449",
+          "branchIdentifier": "8",
+          "branchName": "East Rochester Public Library",
+          "callClass": "j617.1 BER",
+          "callCutter": null,
+          "callPrefix": null,
+          "caption": "",
+          "chronology": "",
+          "collectionCode": "CHILD",
+          "collectionKey": "00008CHILD",
+          "collectionName": "CHILD - CHILDREN",
+          "copy": null,
+          "enumeration": "",
+          "formattedChronEnum": " ",
+          "formattedChronEnumImperial": " ",
+          "hideFromPublic": false,
+          "id": 758867255,
+          "isid": "0",
+          "parts": null,
+          "sortCopy": "ZZZZZZZZZZZZZZZZZZZZ",
+          "sortVolume": "ZZZZZZZZZZZZZZZZZZZZ",
+          "volume": null,
+          "year": null
+        }
+      ],
+      "hostBibliographicId": "422245",
+      "id": 24487584,
+      "imageDisplays": [
+        {
+          "imageName": "Book.png",
+          "imageType": "Book",
+          "priority": 600
+        }
+      ],
+      "link": null,
+      "localLargeImage": null,
+      "localSmallImage": null,
+      "mainSeries": null,
+      "missingContent": null,
+      "publicationDate": {
+        "publicationDate": "1991"
+      },
+      "publicationInformations": [
+        {
+          "id": 758867272,
+          "publicationDate": "c1991.",
+          "publicationPlace": "New York :",
+          "publisherName": "Lodestar Books,"
+        }
+      ],
+      "publicationPlace": null,
+      "ratingInformation": {
+        "average": 0,
+        "count": 0
+      },
+      "reviews": null,
+      "rssFeedName": null,
+      "rtype": 1,
+      "shortAuthor": "Berger, Melvin",
+      "shortTitle": "Ouch! : a book about cuts, scratches, and scrapes",
+      "standardNumbers": [
+        {
+          "data": "9780525673231",
+          "id": 758867273,
+          "type": "Isbn"
+        },
+        {
+          "data": "0525673237",
+          "id": 758867274,
+          "type": "Isbn"
+        }
+      ],
+      "tags": [
+      ]
+    },
+    {
+      "callNumbers": [
+        {
+          "from099TagSubfieldA": true,
+          "subfield": "a",
+          "tag": 99,
+          "value": "675.23 R569b 2003"
+        },
+        {
+          "from099TagSubfieldA": true,
+          "subfield": "a",
+          "tag": 99,
+          "value": "675.23 R569b 2003"
+        }
+      ],
+      "content": null,
+      "downloadable": false,
+      "extent": "137 p. :",
+      "facetFilters": null,
+      "format": "Book",
+      "holdingsInformations": [
+        {
+          "barcode": "39077053506237",
+          "branchIdentifier": "1",
+          "branchName": "Rochester Public Library Central",
+          "callClass": "675.23 R569b 2003",
+          "callCutter": null,
+          "callPrefix": null,
+          "caption": null,
+          "chronology": null,
+          "collectionCode": "SCI",
+          "collectionKey": "00001SCI",
+          "collectionName": "SCI - SCIENCE DIVISION",
+          "copy": null,
+          "enumeration": null,
+          "formattedChronEnum": null,
+          "formattedChronEnumImperial": null,
+          "hideFromPublic": false,
+          "id": 263839624,
+          "isid": null,
+          "parts": null,
+          "sortCopy": "ZZZZZZZZZZZZZZZZZZZZ",
+          "sortVolume": "ZZZZZZZZZZZZZZZZZZZZ",
+          "volume": null,
+          "year": null
+        }
+      ],
+      "hostBibliographicId": "1010780",
+      "id": 1899642,
+      "imageDisplays": [
+        {
+          "imageName": "Book.png",
+          "imageType": "Book",
+          "priority": 600
+        }
+      ],
+      "link": null,
+      "localLargeImage": null,
+      "localSmallImage": null,
+      "mainSeries": null,
+      "missingContent": null,
+      "publicationDate": {
+        "publicationDate": "2003"
+      },
+      "publicationInformations": [
+        {
+          "id": 263839631,
+          "publicationDate": "2003.",
+          "publicationPlace": "Cave Junction, OR :",
+          "publisherName": "Backcountry Pub.,"
+        }
+      ],
+      "publicationPlace": null,
+      "ratingInformation": {
+        "average": 0,
+        "count": 0
+      },
+      "reviews": null,
+      "rssFeedName": null,
+      "rtype": 1,
+      "shortAuthor": "Riggs, Jim",
+      "shortTitle": "Blue mountain buckskin : a working manual, dry-scrape, brain-tan",
+      "standardNumbers": [
+        {
+          "data": "0965867218",
+          "id": 263839632,
+          "type": "Isbn"
+        },
+        {
+          "data": "9780965867214",
+          "id": 263839633,
+          "type": "Isbn"
+        }
+      ],
+      "tags": [
+        {
+          "blocked": false,
+          "count": 0,
+          "data": "buckskin",
+          "id": 428025373,
+          "userEntered": false
+        }
+      ]
+    },
+    {
+      "callNumbers": [
+        {
+          "from099TagSubfieldA": true,
+          "subfield": "a",
+          "tag": 99,
+          "value": "811 S629s"
+        },
+        {
+          "from099TagSubfieldA": true,
+          "subfield": "a",
+          "tag": 99,
+          "value": "811 S629s"
+        }
+      ],
+      "content": null,
+      "downloadable": false,
+      "extent": "31 p. :",
+      "facetFilters": null,
+      "format": "Book",
+      "holdingsInformations": [
+        {
+          "barcode": "39077036500224",
+          "branchIdentifier": "1",
+          "branchName": "Rochester Public Library Central",
+          "callClass": "j811 S629s",
+          "callCutter": null,
+          "callPrefix": null,
+          "caption": null,
+          "chronology": null,
+          "collectionCode": "CHILD",
+          "collectionKey": "00001CHILD",
+          "collectionName": "CHILD - CHILDREN",
+          "copy": null,
+          "enumeration": null,
+          "formattedChronEnum": null,
+          "formattedChronEnumImperial": null,
+          "hideFromPublic": false,
+          "id": 283043856,
+          "isid": null,
+          "parts": null,
+          "sortCopy": "ZZZZZZZZZZZZZZZZZZZZ",
+          "sortVolume": "ZZZZZZZZZZZZZZZZZZZZ",
+          "volume": null,
+          "year": null
+        },
+        {
+          "barcode": "39077056486577",
+          "branchIdentifier": "32",
+          "branchName": "Lincoln Branch Library",
+          "callClass": "j811.008 SKY",
+          "callCutter": null,
+          "callPrefix": null,
+          "caption": null,
+          "chronology": null,
+          "collectionCode": "CHILD",
+          "collectionKey": "00032CHILD",
+          "collectionName": "CHILD - CHILDREN",
+          "copy": null,
+          "enumeration": null,
+          "formattedChronEnum": null,
+          "formattedChronEnumImperial": null,
+          "hideFromPublic": false,
+          "id": 283043858,
+          "isid": null,
+          "parts": null,
+          "sortCopy": "ZZZZZZZZZZZZZZZZZZZZ",
+          "sortVolume": "ZZZZZZZZZZZZZZZZZZZZ",
+          "volume": null,
+          "year": null
+        },
+        {
+          "barcode": "39077037243642",
+          "branchIdentifier": "5",
+          "branchName": "Brighton Memorial Library",
+          "callClass": "j811.008 SKY",
+          "callCutter": null,
+          "callPrefix": null,
+          "caption": null,
+          "chronology": null,
+          "collectionCode": "CHILD",
+          "collectionKey": "00005CHILD",
+          "collectionName": "CHILD - CHILDREN",
+          "copy": null,
+          "enumeration": null,
+          "formattedChronEnum": null,
+          "formattedChronEnumImperial": null,
+          "hideFromPublic": false,
+          "id": 283043857,
+          "isid": null,
+          "parts": null,
+          "sortCopy": "ZZZZZZZZZZZZZZZZZZZZ",
+          "sortVolume": "ZZZZZZZZZZZZZZZZZZZZ",
+          "volume": null,
+          "year": null
+        }
+      ],
+      "hostBibliographicId": "688653",
+      "id": 20995055,
+      "imageDisplays": [
+        {
+          "imageName": "Book.png",
+          "imageType": "Book",
+          "priority": 600
+        }
+      ],
+      "link": null,
+      "localLargeImage": null,
+      "localSmallImage": null,
+      "mainSeries": null,
+      "missingContent": null,
+      "publicationDate": {
+        "publicationDate": "1996"
+      },
+      "publicationInformations": [
+        {
+          "id": 283043869,
+          "publicationDate": "c1996.",
+          "publicationPlace": "Honesdale, Pa. :",
+          "publisherName": "Wordsong/Boyds Mills Press,"
+        }
+      ],
+      "publicationPlace": null,
+      "ratingInformation": {
+        "average": 0,
+        "count": 0
+      },
+      "reviews": null,
+      "rssFeedName": null,
+      "rtype": 1,
+      "shortAuthor": null,
+      "shortTitle": "Sky scrape/city scape : poems of city life",
+      "standardNumbers": [
+        {
+          "data": "9781563971792",
+          "id": 283043870,
+          "type": "Isbn"
+        },
+        {
+          "data": "1563971798",
+          "id": 283043871,
+          "type": "Isbn"
+        }
+      ],
+      "tags": [
+      ]
+    },
+    {
+      "callNumbers": [
+        {
+          "from099TagSubfieldA": true,
+          "subfield": "a",
+          "tag": 99,
+          "value": "973 M636h"
+        },
+        {
+          "from099TagSubfieldA": true,
+          "subfield": "a",
+          "tag": 99,
+          "value": "973 M636h"
+        }
+      ],
+      "content": null,
+      "downloadable": false,
+      "extent": "125 p.",
+      "facetFilters": null,
+      "format": "Book",
+      "holdingsInformations": [
+        {
+          "barcode": "39077005717387",
+          "branchIdentifier": "1",
+          "branchName": "Rochester Public Library Central",
+          "callClass": "973 M636h",
+          "callCutter": null,
+          "callPrefix": null,
+          "caption": null,
+          "chronology": null,
+          "collectionCode": "HIS-ST",
+          "collectionKey": "00001HIS-ST",
+          "collectionName": "HIS-ST - HISTORY DIV - STACKS",
+          "copy": null,
+          "enumeration": null,
+          "formattedChronEnum": null,
+          "formattedChronEnumImperial": null,
+          "hideFromPublic": false,
+          "id": 284528247,
+          "isid": null,
+          "parts": null,
+          "sortCopy": "ZZZZZZZZZZZZZZZZZZZZ",
+          "sortVolume": "ZZZZZZZZZZZZZZZZZZZZ",
+          "volume": null,
+          "year": null
+        }
+      ],
+      "hostBibliographicId": "192356",
+      "id": 22455745,
+      "imageDisplays": [
+        {
+          "imageName": "Book.png",
+          "imageType": "Book",
+          "priority": 600
+        }
+      ],
+      "link": null,
+      "localLargeImage": null,
+      "localSmallImage": null,
+      "mainSeries": null,
+      "missingContent": null,
+      "publicationDate": {
+        "publicationDate": "1948"
+      },
+      "publicationInformations": [
+        {
+          "id": 284528253,
+          "publicationDate": "[1948]",
+          "publicationPlace": "London,",
+          "publisherName": "A. Wingate"
+        }
+      ],
+      "publicationPlace": null,
+      "ratingInformation": {
+        "average": 0,
+        "count": 0
+      },
+      "reviews": null,
+      "rssFeedName": null,
+      "rtype": 1,
+      "shortAuthor": "Mikes, George",
+      "shortTitle": "How to scrape skies; the United States explored, rediscovered and explained.",
+      "standardNumbers": [
+      ],
+      "tags": [
+      ]
+    },
+    {
+      "callNumbers": [
+        {
+          "from099TagSubfieldA": true,
+          "subfield": "a",
+          "tag": 99,
+          "value": "617.1"
+        },
+        {
+          "from099TagSubfieldA": true,
+          "subfield": "a",
+          "tag": 99,
+          "value": "617.1"
+        }
+      ],
+      "content": null,
+      "downloadable": false,
+      "extent": "31 p. :",
+      "facetFilters": null,
+      "format": "Book",
+      "holdingsInformations": [
+        {
+          "barcode": "39077050765745",
+          "branchIdentifier": "10",
+          "branchName": "Gates Public Library",
+          "callClass": "EASY BOOK j617.1 GOR",
+          "callCutter": null,
+          "callPrefix": null,
+          "caption": null,
+          "chronology": null,
+          "collectionCode": "CHILD",
+          "collectionKey": "00010CHILD",
+          "collectionName": "CHILD - CHILDREN",
+          "copy": null,
+          "enumeration": null,
+          "formattedChronEnum": null,
+          "formattedChronEnumImperial": null,
+          "hideFromPublic": false,
+          "id": 286290553,
+          "isid": null,
+          "parts": null,
+          "sortCopy": "ZZZZZZZZZZZZZZZZZZZZ",
+          "sortVolume": "ZZZZZZZZZZZZZZZZZZZZ",
+          "volume": null,
+          "year": null
+        }
+      ],
+      "hostBibliographicId": "962665",
+      "id": 24393003,
+      "imageDisplays": [
+        {
+          "imageName": "Book.png",
+          "imageType": "Book",
+          "priority": 600
+        }
+      ],
+      "link": null,
+      "localLargeImage": null,
+      "localSmallImage": null,
+      "mainSeries": "Rookie read-about health",
+      "missingContent": null,
+      "publicationDate": {
+        "publicationDate": "2002"
+      },
+      "publicationInformations": [
+        {
+          "id": 286290565,
+          "publicationDate": "c2002.",
+          "publicationPlace": "New York :",
+          "publisherName": "Children's Press,"
+        }
+      ],
+      "publicationPlace": null,
+      "ratingInformation": {
+        "average": 0,
+        "count": 0
+      },
+      "reviews": null,
+      "rssFeedName": null,
+      "rtype": 1,
+      "shortAuthor": "Gordon, Sharon",
+      "shortTitle": "Cuts and scrapes",
+      "standardNumbers": [
+        {
+          "data": "0516225669",
+          "id": 286290566,
+          "type": "Isbn"
+        },
+        {
+          "data": "9780516225661",
+          "id": 286290567,
+          "type": "Isbn"
+        }
+      ],
+      "tags": [
+      ]
+    },
+    {
+      "callNumbers": [
+        {
+          "from099TagSubfieldA": true,
+          "subfield": "a",
+          "tag": 99,
+          "value": "616.0252"
+        },
+        {
+          "from099TagSubfieldA": true,
+          "subfield": "a",
+          "tag": 99,
+          "value": "616.0252"
+        }
+      ],
+      "content": null,
+      "downloadable": false,
+      "extent": "xiv, 306 p. :",
+      "facetFilters": null,
+      "format": "Book",
+      "holdingsInformations": [
+        {
+          "barcode": "39077066200323",
+          "branchIdentifier": "30",
+          "branchName": "Charlotte Branch Library",
+          "callClass": "616.025 SAU",
+          "callCutter": null,
+          "callPrefix": null,
+          "caption": null,
+          "chronology": null,
+          "collectionCode": "NONFIC",
+          "collectionKey": "00030NONFIC",
+          "collectionName": "NONFIC - ADULT NONFICTION",
+          "copy": null,
+          "enumeration": null,
+          "formattedChronEnum": null,
+          "formattedChronEnumImperial": null,
+          "hideFromPublic": false,
+          "id": 270480246,
+          "isid": null,
+          "parts": null,
+          "sortCopy": "ZZZZZZZZZZZZZZZZZZZZ",
+          "sortVolume": "ZZZZZZZZZZZZZZZZZZZZ",
+          "volume": null,
+          "year": null
+        }
+      ],
+      "hostBibliographicId": "1243194",
+      "id": 8821014,
+      "imageDisplays": [
+        {
+          "imageName": "Book.png",
+          "imageType": "Book",
+          "priority": 600
+        }
+      ],
+      "link": null,
+      "localLargeImage": null,
+      "localSmallImage": null,
+      "mainSeries": null,
+      "missingContent": null,
+      "publicationDate": {
+        "publicationDate": "2008"
+      },
+      "publicationInformations": [
+        {
+          "id": 270480255,
+          "publicationDate": "2008.",
+          "publicationPlace": "Avon, Mass. :",
+          "publisherName": "Adams Media,"
+        }
+      ],
+      "publicationPlace": null,
+      "ratingInformation": {
+        "average": 0,
+        "count": 0
+      },
+      "reviews": null,
+      "rssFeedName": null,
+      "rtype": 1,
+      "shortAuthor": "Saubers, Nadine",
+      "shortTitle": "The everything first aid book : how to handle falls and breaks, insect bites and rashes, cuts and scrapes, choking, burns, poisoning",
+      "standardNumbers": [
+        {
+          "data": "1598695053",
+          "id": 270480256,
+          "type": "Isbn"
+        },
+        {
+          "data": "9781598695052",
+          "id": 270480257,
+          "type": "Isbn"
+        }
+      ],
+      "tags": [
+        {
+          "blocked": false,
+          "count": 0,
+          "data": "insect bites",
+          "id": 495263546,
+          "userEntered": false
+        }
+      ]
+    },
+    {
+      "callNumbers": [
+        {
+          "from099TagSubfieldA": true,
+          "subfield": "a",
+          "tag": 99,
+          "value": "617.1"
+        },
+        {
+          "from099TagSubfieldA": true,
+          "subfield": "a",
+          "tag": 99,
+          "value": "617.1"
+        }
+      ],
+      "content": null,
+      "downloadable": false,
+      "extent": "48 p. :",
+      "facetFilters": null,
+      "format": "Book",
+      "holdingsInformations": [
+        {
+          "barcode": "39077043702797",
+          "branchIdentifier": "34",
+          "branchName": "Maplewood Community Library",
+          "callClass": "j617.1 SIL",
+          "callCutter": null,
+          "callPrefix": null,
+          "caption": null,
+          "chronology": null,
+          "collectionCode": "CHILD",
+          "collectionKey": "00034CHILD",
+          "collectionName": "CHILD - CHILDREN",
+          "copy": null,
+          "enumeration": null,
+          "formattedChronEnum": null,
+          "formattedChronEnumImperial": null,
+          "hideFromPublic": false,
+          "id": 283448652,
+          "isid": null,
+          "parts": null,
+          "sortCopy": "ZZZZZZZZZZZZZZZZZZZZ",
+          "sortVolume": "ZZZZZZZZZZZZZZZZZZZZ",
+          "volume": null,
+          "year": null
+        }
+      ],
+      "hostBibliographicId": "852003",
+      "id": 21409068,
+      "imageDisplays": [
+        {
+          "imageName": "Book.png",
+          "imageType": "Book",
+          "priority": 600
+        }
+      ],
+      "link": null,
+      "localLargeImage": null,
+      "localSmallImage": null,
+      "mainSeries": "My health",
+      "missingContent": null,
+      "publicationDate": {
+        "publicationDate": "1999"
+      },
+      "publicationInformations": [
+        {
+          "id": 283448666,
+          "publicationDate": "1999.",
+          "publicationPlace": "New York :",
+          "publisherName": "Franklin Watts,"
+        }
+      ],
+      "publicationPlace": null,
+      "ratingInformation": {
+        "average": 0,
+        "count": 0
+      },
+      "reviews": null,
+      "rssFeedName": null,
+      "rtype": 1,
+      "shortAuthor": "Silverstein, Alvin",
+      "shortTitle": "Cuts, scrapes, scabs, and scars",
+      "standardNumbers": [
+        {
+          "data": "0531115828",
+          "id": 283448667,
+          "type": "Isbn"
+        },
+        {
+          "data": "9780531115824",
+          "id": 283448668,
+          "type": "Isbn"
+        }
+      ],
+      "tags": [
+      ]
+    },
+    {
+      "callNumbers": [
+        {
+          "from099TagSubfieldA": true,
+          "subfield": "a",
+          "tag": 99,
+          "value": "395.22"
+        },
+        {
+          "from099TagSubfieldA": true,
+          "subfield": "a",
+          "tag": 99,
+          "value": "395.22"
+        }
+      ],
+      "content": null,
+      "downloadable": false,
+      "extent": "292 p. ;",
+      "facetFilters": null,
+      "format": "Book",
+      "holdingsInformations": [
+        {
+          "barcode": "39077056427415",
+          "branchIdentifier": "10",
+          "branchName": "Gates Public Library",
+          "callClass": "PB 395.22 ATK",
+          "callCutter": null,
+          "callPrefix": null,
+          "caption": "",
+          "chronology": "",
+          "collectionCode": ".",
+          "collectionKey": "00010.",
+          "collectionName": ".",
+          "copy": null,
+          "enumeration": "",
+          "formattedChronEnum": " ",
+          "formattedChronEnumImperial": " ",
+          "hideFromPublic": false,
+          "id": 699263487,
+          "isid": "0",
+          "parts": null,
+          "sortCopy": "ZZZZZZZZZZZZZZZZZZZZ",
+          "sortVolume": "ZZZZZZZZZZZZZZZZZZZZ",
+          "volume": null,
+          "year": null
+        },
+        {
+          "barcode": "39077058994081",
+          "branchIdentifier": "13",
+          "branchName": "Greece Public Library",
+          "callClass": "395.22 ATK",
+          "callCutter": null,
+          "callPrefix": null,
+          "caption": "",
+          "chronology": "",
+          "collectionCode": "NONFIC",
+          "collectionKey": "00013NONFIC",
+          "collectionName": "NONFIC - ADULT NONFICTION",
+          "copy": null,
+          "enumeration": "",
+          "formattedChronEnum": " ",
+          "formattedChronEnumImperial": " ",
+          "hideFromPublic": false,
+          "id": 699263488,
+          "isid": "0",
+          "parts": null,
+          "sortCopy": "ZZZZZZZZZZZZZZZZZZZZ",
+          "sortVolume": "ZZZZZZZZZZZZZZZZZZZZ",
+          "volume": null,
+          "year": null
+        },
+        {
+          "barcode": "39077056277232",
+          "branchIdentifier": "20",
+          "branchName": "Parma Public Library",
+          "callClass": "395.22 ATK",
+          "callCutter": null,
+          "callPrefix": null,
+          "caption": "",
+          "chronology": "",
+          "collectionCode": ".",
+          "collectionKey": "00020.",
+          "collectionName": ".",
+          "copy": null,
+          "enumeration": "",
+          "formattedChronEnum": " ",
+          "formattedChronEnumImperial": " ",
+          "hideFromPublic": false,
+          "id": 699263489,
+          "isid": "0",
+          "parts": null,
+          "sortCopy": "ZZZZZZZZZZZZZZZZZZZZ",
+          "sortVolume": "ZZZZZZZZZZZZZZZZZZZZ",
+          "volume": null,
+          "year": null
+        }
+      ],
+      "hostBibliographicId": "1061669",
+      "id": 18122425,
+      "imageDisplays": [
+        {
+          "imageName": "Book.png",
+          "imageType": "Book",
+          "priority": 600
+        }
+      ],
+      "link": null,
+      "localLargeImage": null,
+      "localSmallImage": null,
+      "mainSeries": null,
+      "missingContent": null,
+      "publicationDate": {
+        "publicationDate": "2005"
+      },
+      "publicationInformations": [
+        {
+          "id": 699263497,
+          "publicationDate": "2005.",
+          "publicationPlace": "New York :",
+          "publisherName": "Broadway Books,"
+        }
+      ],
+      "publicationPlace": null,
+      "ratingInformation": {
+        "average": 0,
+        "count": 0
+      },
+      "reviews": null,
+      "rssFeedName": null,
+      "rtype": 1,
+      "shortAuthor": "Atkins, Dale V",
+      "shortTitle": "Wedding sanity savers : how to handle the stickiest dilemmas, scrapes, and questions that arise on the road to your perfect day",
+      "standardNumbers": [
+        {
+          "data": "0767918746",
+          "id": 699263498,
+          "type": "Isbn"
+        },
+        {
+          "data": "9780767918749",
+          "id": 699263499,
+          "type": "Isbn"
+        }
+      ],
+      "tags": [
+      ]
+    },
+    {
+      "callNumbers": [
+        {
+          "from099TagSubfieldA": true,
+          "subfield": "a",
+          "tag": 99,
+          "value": "617.1008"
+        },
+        {
+          "from099TagSubfieldA": true,
+          "subfield": "a",
+          "tag": 99,
+          "value": "617.1008"
+        }
+      ],
+      "content": null,
+      "downloadable": false,
+      "extent": "32 p. :",
+      "facetFilters": null,
+      "format": "Book",
+      "holdingsInformations": [
+        {
+          "barcode": "39077065573787",
+          "branchIdentifier": "33",
+          "branchName": "Lyell Branch Library",
+          "callClass": "j617.10 LAN",
+          "callCutter": null,
+          "callPrefix": null,
+          "caption": null,
+          "chronology": null,
+          "collectionCode": "CHILD",
+          "collectionKey": "00033CHILD",
+          "collectionName": "CHILD - CHILDREN",
+          "copy": null,
+          "enumeration": null,
+          "formattedChronEnum": null,
+          "formattedChronEnumImperial": null,
+          "hideFromPublic": false,
+          "id": 265896947,
+          "isid": null,
+          "parts": null,
+          "sortCopy": "ZZZZZZZZZZZZZZZZZZZZ",
+          "sortVolume": "ZZZZZZZZZZZZZZZZZZZZ",
+          "volume": null,
+          "year": null
+        }
+      ],
+      "hostBibliographicId": "1219607",
+      "id": 3824226,
+      "imageDisplays": [
+        {
+          "imageName": "Book.png",
+          "imageType": "Book",
+          "priority": 600
+        }
+      ],
+      "link": null,
+      "localLargeImage": null,
+      "localSmallImage": null,
+      "mainSeries": "Head-to-toe Health",
+      "missingContent": null,
+      "publicationDate": {
+        "publicationDate": "2009"
+      },
+      "publicationInformations": [
+        {
+          "id": 265896959,
+          "publicationDate": "c2009.",
+          "publicationPlace": "New York :",
+          "publisherName": "Marshall Cavendish Benchmark,"
+        }
+      ],
+      "publicationPlace": null,
+      "ratingInformation": {
+        "average": 0,
+        "count": 0
+      },
+      "reviews": null,
+      "rssFeedName": null,
+      "rtype": 1,
+      "shortAuthor": "Landau, Elaine",
+      "shortTitle": "Bumps, bruises, and scrapes",
+      "standardNumbers": [
+        {
+          "data": "0761428496",
+          "id": 265896960,
+          "type": "Isbn"
+        },
+        {
+          "data": "9780761428497",
+          "id": 265896961,
+          "type": "Isbn"
+        }
+      ],
+      "tags": [
+      ]
+    },
+    {
+      "callNumbers": [
+        {
+          "from099TagSubfieldA": true,
+          "subfield": "a",
+          "tag": 99,
+          "value": "617.1"
+        },
+        {
+          "from099TagSubfieldA": true,
+          "subfield": "a",
+          "tag": 99,
+          "value": "617.1"
+        }
+      ],
+      "content": null,
+      "downloadable": false,
+      "extent": "48 p. :",
+      "facetFilters": null,
+      "format": "Book",
+      "holdingsInformations": [
+        {
+          "barcode": "39077068551236",
+          "branchIdentifier": "28",
+          "branchName": "Webster Public Library",
+          "callClass": "j617.1 LEW",
+          "callCutter": null,
+          "callPrefix": null,
+          "caption": null,
+          "chronology": null,
+          "collectionCode": "CHILD",
+          "collectionKey": "00028CHILD",
+          "collectionName": "CHILD - CHILDREN",
+          "copy": null,
+          "enumeration": null,
+          "formattedChronEnum": null,
+          "formattedChronEnumImperial": null,
+          "hideFromPublic": false,
+          "id": 268054576,
+          "isid": null,
+          "parts": null,
+          "sortCopy": "ZZZZZZZZZZZZZZZZZZZZ",
+          "sortVolume": "ZZZZZZZZZZZZZZZZZZZZ",
+          "volume": null,
+          "year": null
+        }
+      ],
+      "hostBibliographicId": "1269223",
+      "id": 6165401,
+      "imageDisplays": [
+        {
+          "imageName": "Book.png",
+          "imageType": "Book",
+          "priority": 600
+        }
+      ],
+      "link": null,
+      "localLargeImage": null,
+      "localSmallImage": null,
+      "mainSeries": "Gross body science",
+      "missingContent": null,
+      "publicationDate": {
+        "publicationDate": "2010"
+      },
+      "publicationInformations": [
+        {
+          "id": 268054593,
+          "publicationDate": "c2010.",
+          "publicationPlace": "Minneapolis :",
+          "publisherName": "Millbrook Press,"
+        }
+      ],
+      "publicationPlace": null,
+      "ratingInformation": {
+        "average": 0,
+        "count": 0
+      },
+      "reviews": null,
+      "rssFeedName": null,
+      "rtype": 1,
+      "shortAuthor": "Lew, Kristi",
+      "shortTitle": "Clot & scab : gross stuff about your scrapes, bumps, and bruises",
+      "standardNumbers": [
+        {
+          "data": "9780822589655",
+          "id": 268054594,
+          "type": "Isbn"
+        },
+        {
+          "data": "0822589656",
+          "id": 268054595,
+          "type": "Isbn"
+        }
+      ],
+      "tags": [
+      ]
+    }
+  ],
+  "totalHits": 134
+}

@@ -4,9 +4,7 @@ import pprint
 
 import requests
 
-
-
-
+from model import *
 
 DEBUG = False
 
@@ -25,39 +23,50 @@ if DEBUG:
     http_client.HTTPConnection.debuglevel = 1
 
     # You must initialize logging, otherwise you'll not see debug output.
-    logging.basicConfig() 
+    logging.basicConfig()
     logging.getLogger().setLevel(logging.DEBUG)
     requests_log = logging.getLogger("requests.packages.urllib3")
     requests_log.setLevel(logging.DEBUG)
     requests_log.propagate = True
 
 
-BRANCHES_URL = "http://catalogplus.libraryweb.org/branch/allBranches"
+SEARCH_URL = "http://catalogplus.libraryweb.org/search"
+AVAILABILITY_URL = "http://catalogplus.libraryweb.org/availability"
 # Library Javascritpt adds timestamps to avoid caches like this:
 # ?_=1455916577153
 
-SEARCH_URL = "http://catalogplus.libraryweb.org/search"
-
-SEARCH_HEADERS = {
+HEADERS = {
         "Referer":"http://catalogplus.libraryweb.org/",
         "Accept":"application/json, text/javascript, */*; q=0.01",
         "Content-Type":"application/json",
         }
 
-class Searcher(object):
-    def __init__(self):
-        self.branches = requests.get(BRANCHES_URL).json()
-        self.branches_by_id = { item['identifier'] : item['displayName'] for item in self.branches if item['displayInCopies'] }
+def post(url, body):
+    r = requests.post(url, json=body, headers=HEADERS)
+    try:
+        return r.json()
+    except:
+        print r.text
+        raise
 
-    def search(self, text):
-        r = requests.post(SEARCH_URL,
-                json=search_payload(text),
-                headers=SEARCH_HEADERS)
-        try:
-            return r.json()
-        except:
-            print r.text
-            raise
+def search(text):
+    r = post(SEARCH_URL, search_payload(text))
+    for item in r['resources']:
+        save_item(text, item)
+
+
+def save_item(query, item):
+    result = SearchResult(
+            search_query=query,
+            id=item['id'],
+            format=item['format'],
+            author=item['shortAuthor'],
+            title=item['shortTitle']
+            )
+    session.add_all([result])
+    session.commit()
+
+
 
 class Resource(object):
     def __init__(self, resource):
@@ -67,6 +76,10 @@ class Resource(object):
         self.title = resource['shortTitle']
 
 
+def availability_payload(*items):
+    pass
+    # itemIdentifier=resources[x].barCode,
+    # resourceId=resources[x].holdingsInformatios[y].id
 
 def search_payload(text, branch_ids=()):
     return {
@@ -84,16 +97,18 @@ def search_payload(text, branch_ids=()):
 
     pass
 
+
+
 def main():
     s = Searcher()
     results = dict()
-    print(s.branches_by_id["1"])
     for line in fileinput.input():
         line = line.strip()
         if len(line) == 0:
             continue
         print line
         results[line] = s.search(line)
+        break
 
     with open('results.csv', 'wb') as writer:
         w = csv.writer(writer)
