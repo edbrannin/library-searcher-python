@@ -54,9 +54,9 @@ def post(url, body):
 def search(text):
     r = post(SEARCH_URL, search_payload(text))
     for i, item in enumerate(r['resources']):
-        save_item(text, i, item)
+        save_search_result(text, i, item)
 
-def save_item(query, position, item):
+def save_search_result(query, position, item):
     result = SearchResult(
             search_query=query,
             id=item['id'],
@@ -111,28 +111,24 @@ def search_payload(text, branch_ids=()):
 def main():
     global session
     session = setup_sqlalchemy('sqlite:///books.sqlite3')()
-    s = Searcher()
-    results = dict()
     for line in fileinput.input():
         line = line.strip()
         if len(line) == 0:
             continue
         print line
-        results[line] = search(line)
+        search(line)
         break
 
     with open('results.csv', 'wb') as writer:
         w = csv.writer(writer)
 
-        #pprint.pprint(results)
-        for line, result in results.items():
-            print line
+        for result in session.query(SearchResult):
             for resource in result['resources']:
                 r = Resource(resource)
                 # pprint.pprint(vars(r))
                 for holding in r.holdings:
                     w.writerow([(s or '').encode('utf-8') for s in [
-                        line,
+                        r.query,
                         r.title,
                         r.author,
                         r.format,
