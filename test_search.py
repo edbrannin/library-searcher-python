@@ -3,7 +3,7 @@ import json
 from model import *
 import search
 
-def setup_module():
+def setup_function(function):
     global session
     session = setup_sqlalchemy('sqlite://')()
     search.session = session
