@@ -1,7 +1,12 @@
 import json
 
 from model import *
-from search import *
+import search
+
+def setup_module():
+    global session
+    session = setup_sqlalchemy('sqlite://')()
+    search.session = session
 
 def read(name):
     with open('test_data/{name}.json'.format(name=name)) as i:
@@ -9,7 +14,9 @@ def read(name):
 
 def test_save_item():
     response = read('search-response')
-    save_item("scraping", response['resources'][0])
+    search.save_item("scraping", response['resources'][0])
 
-    # TODO Assert
     assert session.query(SearchResult).count() == 1
+    result = session.query(SearchResult).one()
+
+

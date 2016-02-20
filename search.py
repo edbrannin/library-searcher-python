@@ -29,6 +29,8 @@ if DEBUG:
     requests_log.setLevel(logging.DEBUG)
     requests_log.propagate = True
 
+session = None
+
 
 SEARCH_URL = "http://catalogplus.libraryweb.org/search"
 AVAILABILITY_URL = "http://catalogplus.libraryweb.org/availability"
@@ -100,6 +102,8 @@ def search_payload(text, branch_ids=()):
 
 
 def main():
+    global session
+    session = setup_sqlalchemy('sqlite:///books.sqlite3')()
     s = Searcher()
     results = dict()
     for line in fileinput.input():
