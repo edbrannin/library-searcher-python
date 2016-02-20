@@ -19,4 +19,10 @@ def test_save_item():
     assert session.query(SearchResult).count() == 1
     result = session.query(SearchResult).one()
 
+    assert result.search_query == "scraping"
+    assert result.id == 10964391
+    assert result.format == "Book"
+    assert result.holdings == None
+    assert result.author ==  "Ross, Cindy"
+    assert result.title == "Scraping heaven : a family's journey along the Continental Divide"
 
