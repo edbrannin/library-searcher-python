@@ -76,7 +76,7 @@ class Status(Base, ModelMixin):
     """
 
 
-def setup_sqlalchemy(url):
+def setup_sqlalchemy(url="sqlite:///books.sqlite3"):
     global session
     engine = create_engine(url)
     Session = sessionmaker(bind=engine)

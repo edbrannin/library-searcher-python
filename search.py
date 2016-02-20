@@ -1,4 +1,3 @@
-import csv
 import fileinput
 import pprint
 
@@ -126,7 +125,7 @@ def search_payload(text, branch_ids=()):
 
 def main():
     global session
-    session = setup_sqlalchemy('sqlite:///books.sqlite3')()
+    session = setup_sqlalchemy()()
     for line in fileinput.input():
         line = line.strip()
         if len(line) == 0:
@@ -136,25 +135,6 @@ def main():
         # break
 
     update_availability()
-    return
-
-    with open('results.csv', 'wb') as writer:
-        w = csv.writer(writer)
-
-        for result in session.query(Resource):
-            for resource in result['resources']:
-                r = Resource(resource)
-                # pprint.pprint(vars(r))
-                for holding in r.holdings:
-                    w.writerow([(s or '').encode('utf-8') for s in [
-                        r.query,
-                        r.title,
-                        r.author,
-                        r.format,
-                        holding['branchName'],
-                        holding['collectionName'],
-                        holding['callClass'],
-                        ]])
 
 
 if __name__ == '__main__':

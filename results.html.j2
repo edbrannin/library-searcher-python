@@ -1,0 +1,42 @@
+
+<html>
+    <head>
+        <style type="text/css">
+tr.even {
+    background-color: wheat;
+}
+body {
+    font-family: monospace;
+}
+        </style>
+    </head>
+    <body>
+        <table cellspacing="0">
+            <thead>
+                <tr>
+                    <th>[&nbsp;]</th>
+                    <th>Author</th>
+                    <th>Title</th>
+                    <th>Branch</th>
+                    <th>Collection</th>
+                    <th>Call #</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% set last_title = None %}
+                {% set row_class = cycler('odd', 'even') %}
+                {% for row in rows %}
+                <tr class="{{ row_class.current if row.title == last_title else row_class.next() }}">
+                    <td>[&nbsp;]</td>
+                    <td>{{ row.author|e }}</td>
+                    <td>{{ row.title|e }}</td>
+                    <td>{{ row.branch_name|e }}</td>
+                    <td>{{ row.collection_name|e }}</td>
+                    <td>{{ row.call_class|e }}</td>
+                    {% set last_title = row['title'] %}
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </body>
+</html>
