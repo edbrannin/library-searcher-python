@@ -12,7 +12,7 @@ def read(name):
     with open('test_data/{name}.json'.format(name=name)) as i:
         return json.load(i)
 
-def test_save_item():
+def test_save_search_result():
     response = read('search-response')
     search.save_search_result("scraping", 1, response['resources'][0])
 
@@ -42,3 +42,6 @@ def test_save_item():
     assert holdings[1].branch_name ==  "Irondequoit Public Library"
     assert holdings[1].collection_name ==  "."
     assert holdings[1].call_class ==  "917.8 ROS"
+
+def test_save_availability():
+    pass
