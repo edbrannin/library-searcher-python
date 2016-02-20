@@ -53,14 +53,14 @@ def post(url, body):
 
 def search(text):
     r = post(SEARCH_URL, search_payload(text))
-    for item in r['resources']:
-        save_item(text, item)
+    for i, item in enumerate(r['resources']):
+        save_item(text, i, item)
 
-
-def save_item(query, item):
+def save_item(query, position, item):
     result = SearchResult(
             search_query=query,
             id=item['id'],
+            position=position,
             format=item['format'],
             author=item['shortAuthor'],
             title=item['shortTitle']
@@ -76,8 +76,6 @@ def save_item(query, item):
                 )
         session.add(rh)
     session.commit()
-
-
 
 class Resource(object):
     def __init__(self, resource):
@@ -120,7 +118,7 @@ def main():
         if len(line) == 0:
             continue
         print line
-        results[line] = s.search(line)
+        results[line] = search(line)
         break
 
     with open('results.csv', 'wb') as writer:

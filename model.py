@@ -14,11 +14,14 @@ class Branch(Base, ReprMixin):
     __tablename__ = 'branches'
 """
 
+# FIXME Adjust PKs to be auto-generated IDs
+
 class SearchResult(Base, ReprMixin):
     __tablename__ = 'search_results'
 
     search_query = Column(String)
     id = Column(Integer, primary_key=True)
+    position = Column(Integer)
     format = Column(String)
     holdings = None
     author = Column(String)

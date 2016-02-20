@@ -14,13 +14,14 @@ def read(name):
 
 def test_save_item():
     response = read('search-response')
-    search.save_item("scraping", response['resources'][0])
+    search.save_item("scraping", 1, response['resources'][0])
 
     assert session.query(SearchResult).count() == 1
     result = session.query(SearchResult).one()
 
     assert result.search_query == "scraping"
     assert result.id == 10964391
+    assert result.position == 1
     assert result.format == "Book"
     assert result.holdings == None
     assert result.author ==  "Ross, Cindy"
