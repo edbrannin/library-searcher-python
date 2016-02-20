@@ -65,7 +65,16 @@ def save_item(query, item):
             author=item['shortAuthor'],
             title=item['shortTitle']
             )
-    session.add_all([result])
+    session.add(result)
+    for holding in item['holdingsInformations']:
+        rh = ResourceHolding(
+                item_id=result.id,
+                barcode=holding['barcode'],
+                branch_name=holding['branchName'],
+                collection_name=holding['collectionName'],
+                call_class=holding['callClass']
+                )
+        session.add(rh)
     session.commit()
 
 
@@ -81,7 +90,7 @@ class Resource(object):
 def availability_payload(*items):
     pass
     # itemIdentifier=resources[x].barCode,
-    # resourceId=resources[x].holdingsInformatios[y].id
+    # resourceId=resources[x].holdingsInformations[y].id
 
 def search_payload(text, branch_ids=()):
     return {

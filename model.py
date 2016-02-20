@@ -24,7 +24,7 @@ class SearchResult(Base, ReprMixin):
     author = Column(String)
     title = Column(String)
 
-class resource_holdings(Base, ReprMixin):
+class ResourceHolding(Base, ReprMixin):
     __tablename__ = 'search_holdings'
     item_id = Column(Integer)
     barcode = Column(String, primary_key=True)
