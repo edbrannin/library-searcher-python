@@ -5,6 +5,7 @@
 
 tr.new_book td {
     border-top: 1px solid gray;
+    padding-top: 1em;
 }
 
 body {
@@ -13,7 +14,7 @@ body {
 
 td, th {
     border-left: 1px solid black;
-    margin-right: .5em;
+    padding-right: .5em;
     padding-left: .5em;
 }
 
@@ -29,8 +30,11 @@ td:first-child, th:first-child {
             <thead>
                 <tr>
                     <th></th>
-                    <th>Author</th>
-                    <th>Title</th>
+                    <th colspan=2>Author</th>
+                    <th colspan=2>Title</th>
+                </tr>
+                <tr>
+                    <th></th>
                     <th>Branch</th>
                     <th>Count</th>
                     <th>Collection</th>
@@ -39,16 +43,22 @@ td:first-child, th:first-child {
             </thead>
             <tbody>
                 {% for row in rows %}
-                <tr class="{{ 'new_book' if row.title != last_title else same_book }}">
-                    <td>{% if row.title != last_title %}[&nbsp;]{% endif %}</td>
-                    <td>{{ row.author|e }}</td>
-                    <td>{{ row.title|e }}</td>
+                {% set new_book = row.title != last_title %}
+                {% if new_book %}
+                <tr class="new_book">
+                    <td>{% if new_book %}[&nbsp;]{% endif %}</td>
+                    <td colspan=2>{{ row.author|e }}</td>
+                    <td colspan=2>{{ row.title|e }}</td>
+                </tr>
+                {% endif %}
+                <tr>
+                    <td></td>
                     <td>{{ row.branch_name|e }}</td>
                     <td>{{ row.count|e }}</td>
                     <td>{{ row.collection_name|e }}</td>
                     <td>{{ row.call_class|e }}</td>
-                    {% set last_title = row.title %}
                 </tr>
+                {% set last_title = row.title %}
                 {% endfor %}
             </tbody>
         </table>
