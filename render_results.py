@@ -44,6 +44,9 @@ order by
   call_class
 """
 
-if __name__ == '__main__':
+def render_results():
     rows = session.execute(sql)
     print template.render(rows=rows).encode('utf-8')
+
+if __name__ == '__main__':
+    print render_results()

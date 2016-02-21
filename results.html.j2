@@ -38,11 +38,6 @@ td, th {
                     <td>{{ row.count|e }}</td>
                     <td>{{ row.collection_name|e }}</td>
                     <td>{{ row.call_class|e }}</td>
-                    {#
-                    <td>{{last_title}}</td>
-                    <td>{{row.title == last_title }}</td>
-                    <td>{{row_class.current}}</td>
-                    #}
                     {% set last_title = row.title %}
                 </tr>
                 {% endfor %}

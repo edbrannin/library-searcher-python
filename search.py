@@ -3,6 +3,7 @@ import pprint
 
 import requests
 
+import render_results
 from model import *
 
 DEBUG = False
@@ -132,9 +133,10 @@ def main():
             continue
         print line
         search(line)
-        # break
 
     update_availability()
+    with open('done.html', 'w') as out:
+        out.write(render_results.render_results())
 
 
 if __name__ == '__main__':
