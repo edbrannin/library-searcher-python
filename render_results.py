@@ -1,3 +1,4 @@
+import click
 from jinja2 import Environment, FileSystemLoader
 
 from model import *
@@ -27,7 +28,8 @@ where
   and position = 0
   and branch_name in (
      'Rochester Public Library Central',
-    'Irondequoit Public Library'
+    'Irondequoit Public Library',
+    'Fairport Public Library'
     )
   and available = 1
 group by
@@ -44,9 +46,12 @@ order by
   call_class
 """
 
-def render_results():
+@click.command()
+@click.argument("out_file", type=click.File('wb'))
+def render_results(out_file):
     rows = session.execute(sql)
-    return template.render(rows=rows).encode('utf-8')
+    out_file.write(template.render(rows=rows).encode('utf-8'))
 
 if __name__ == '__main__':
-    print render_results()
+    render_results()
+
