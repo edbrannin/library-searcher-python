@@ -7,7 +7,7 @@ body{
   -webkit-print-color-adjust:exact;
 }
 
-table {
+table, section {
     page-break-inside: avoid;
 }
 
@@ -73,5 +73,30 @@ td:first-child, th:first-child {
                 {% endfor %}
             </tbody>
         </table>
+        <section>
+        <h2>Not Listed</h2>
+        <table cellspacing="0">
+            <thead>
+                <tr>
+                    <th>Author</th>
+                    <th>Title</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for row in missing_rows %}
+                {% set new_book = row.search_query != last_title %}
+                {% if new_book %}
+                <tr class="new_book">
+                    <td colspan=2>{{row.search_query|e }}</td>
+                {% endif %}
+                <tr>
+                    <td>{{ row.author|e }}</td>
+                    <td>{{ row.title|e }}</td>
+                </tr>
+                {% set last_title = row.search_query %}
+                {% endfor %}
+            </tbody>
+        </table>
+        </section>
     </body>
 </html>

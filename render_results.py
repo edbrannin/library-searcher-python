@@ -44,9 +44,46 @@ order by
   call_class
 """
 
+
+unlisted_sql = """
+SELECT max(rr.search_query) search_query
+     ,  rr.author
+     ,  rr.title
+FROM resources rr
+WHERE NOT EXISTS
+    (SELECT 1
+     FROM resources r
+        ,  resource_holdings h
+        ,  resource_status s
+     WHERE r.id = h.item_id
+       AND s.resource_id = h.item_id
+       AND s.item_identifier = h.barcode
+       AND POSITION = 0
+       AND branch_name IN ( 'Rochester Public Library Central'
+                          ,  'Irondequoit Public Library' )
+       AND available = 1
+       AND r.author = rr.author
+       AND r.title = rr.title
+     GROUP BY r.author
+            ,  r.title
+            ,  h.branch_name
+            ,  h.collection_name
+            ,  h.call_class
+     ORDER BY author
+            ,  title
+            ,  branch_name
+            ,  collection_name ASC, call_class)
+GROUP BY author
+       ,  title
+ORDER BY search_query
+       ,  author
+       ,  title
+"""
+
 def render_results():
-    rows = session.execute(sql)
-    return template.render(rows=rows).encode('utf-8')
+    rows = session.execute(sql).fetchall()
+    missing_rows = session.execute(unlisted_sql).fetchall()
+    return template.render(rows=rows, missing_rows=missing_rows).encode('utf-8')
 
 if __name__ == '__main__':
     print render_results()
