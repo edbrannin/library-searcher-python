@@ -1,3 +1,8 @@
+books.sqlite3
+done.html
+queries.txt
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
