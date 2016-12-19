@@ -1,3 +1,4 @@
+import click
 from jinja2 import Environment, FileSystemLoader
 
 from model import *
@@ -27,7 +28,8 @@ where
   and position = 0
   and branch_name in (
      'Rochester Public Library Central',
-    'Irondequoit Public Library'
+    'Irondequoit Public Library',
+    'Fairport Public Library'
     )
   and available = 1
 group by
@@ -44,6 +46,7 @@ order by
   call_class
 """
 
+<<<<<<< HEAD
 
 unlisted_sql = """
 SELECT max(rr.search_query) search_query
@@ -80,10 +83,14 @@ ORDER BY search_query
        ,  title
 """
 
-def render_results():
+@click.command()
+@click.argument("out_file", type=click.File('wb'))
+def render_results(out_file):
     rows = session.execute(sql).fetchall()
     missing_rows = session.execute(unlisted_sql).fetchall()
-    return template.render(rows=rows, missing_rows=missing_rows).encode('utf-8')
+    text = template.render(rows=rows, missing_rows=missing_rows).encode('utf-8')
+    out_file.write(text)
 
 if __name__ == '__main__':
-    print render_results()
+    render_results()
+

@@ -1,6 +1,7 @@
 requests
 sqlalchemy
 jinja2
+click
 
 
 click
