@@ -2,6 +2,7 @@ import fileinput
 import pprint
 
 import requests
+import click
 
 import render_results
 from model import *
@@ -51,7 +52,7 @@ def post(url, body):
         print r.text
         raise
 
-def search(text):
+def do_search(text):
     r = post(SEARCH_URL, search_payload(text))
     for i, item in enumerate(r['resources']):
         save_search_result(text, i, item)
@@ -124,19 +125,26 @@ def search_payload(text, branch_ids=()):
 # {"searchTerm":"Asch\tBear Shadow","startIndex":0,"hitsPerPage":12,"facetFilters":[],"branchFilters":["1"],"sortCriteria":"Relevancy","targetAudience":"","addToHistory":true,"dbCodes":[]}
     pass
 
-def main():
+@click.command()
+@click.argument('filenames', type=click.Path(exists=True), nargs=-1)
+@click.option("--search/--no-search", default=True)
+def main(filenames, search=True):
     global session
     session = setup_sqlalchemy()()
-    for line in fileinput.input():
-        line = line.strip()
-        if len(line) == 0:
-            continue
-        print line
-        search(line)
 
-    update_availability()
+    if search:
+        for line in fileinput.input(filenames):
+            line = line.strip()
+            if len(line) == 0:
+                continue
+            print line
+            do_search(line)
+
+        # TODO Make this repeatable
+        update_availability()
     with open('done.html', 'w') as out:
         out.write(render_results.render_results())
+    print "Wrote done.html"
 
 
 if __name__ == '__main__':
